@@ -11,8 +11,16 @@
 print("Calificaciones del aula")
 
 alums = int(input("¿Cuantos alumnos hay en el aula?"))
-for alum in alums:
-  print(alum)
-  alum *= alums
 
-    
+notas = []
+
+for i in range(alums):
+  nota = int(input(f"Ingresa la calificación del estudiante {i+1}: "))
+  notas.append(nota)
+  
+min_notas = min(notas)
+max_notas = max(notas)
+suma_notas = sum(notas)
+promedio = suma_notas / alums
+
+print("La nota minima es: ", min_notas, "\nLa nota maxima es: ", max_notas, "\nla suma de todas las notas es: ", suma_notas, "\nel promedio es: ", promedio)
