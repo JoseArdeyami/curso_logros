@@ -1,0 +1,18 @@
+#desarrolla un programa que solicite las Calificaciones de varios estudiantes y luego
+#realice los siguientes calculos, la suma de todas las calificaciones, el promedio, la mas alta y baja
+#finalmente muestras los resultados
+#pregunta al usuario cuantos estudiantes hay
+#utiiza bucle for para solicitar las calificaciones de cada estudiante
+#almacena todas las calificaciones en una lista
+#calcula la suma de las calificaciones usando la funcion sum()
+#tambien el promedio dividiendo la suma por el num de estudiantes
+#encontrar la nota mas alta con max() y la mas baja con min()
+#muestra todos los resultados
+print("Calificaciones del aula")
+
+alums = int(input("¿Cuantos alumnos hay en el aula?"))
+for alum in alums:
+  print(alum)
+  alum *= alums
+
+    
