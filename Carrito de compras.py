@@ -31,7 +31,7 @@ def calcular_total():
     total = sum(compra["precio"] for compra in cesta)
     print(f"El total de la compra es: ${total}")
 
-inicio = int(input("¡Bienvenido a la tienda!\n Quiere empezar su compra?\n 1-Si\n 2-No"))
+inicio = int(input("¡Bienvenido a la tienda!\n ¿Quiere empezar su compra?\n 1-Si\n 2-No"))
 
 while inicio == 1:
     print("\nOpciones:")
